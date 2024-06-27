@@ -7,7 +7,7 @@ function isValidEmail($email) {
     return filter_var($email, FILTER_VALIDATE_EMAIL);
 }
 
-if ($_SERVER["REQUEST_METHOD"] == "GET") {
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = sanitizeInput('name', FILTER_SANITIZE_SPECIAL_CHARS);
     $email = sanitizeInput('email', FILTER_SANITIZE_EMAIL);
     $subject = sanitizeInput('subject', FILTER_SANITIZE_SPECIAL_CHARS);
