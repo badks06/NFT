@@ -47,36 +47,24 @@ section {
     padding: 60px 20px;
 }
 #contact {
-    padding: 100px;
+    padding: 20px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px; /* Ajuste le padding pour changer la taille du bouton */
+    width: 80%;
+    background-color: #0e0c0c; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    text-align: center;
+    text-decoration: none; /* Enlève le soulignement du texte */
+    border: none; /* Enlève la bordure */
+    border-radius: 5px; /* Arrondit les coins du bouton */
+    font-size: 50px; /* Taille du texte */
+    cursor: pointer; /* Change le curseur en main au survol */
+    margin: 40px;
+    
 }
 
-form {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-label {
-    display: block;
-    margin-top: 10px;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-input[type="submit"] {
-    background-color: #333;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #555;
+.button:hover {
+    background-color: #0056b3; /* Couleur de fond du bouton au survol */
 }
